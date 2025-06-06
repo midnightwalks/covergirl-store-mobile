@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'package:tokomakeup/models/cart_item.dart';
-import 'package:tokomakeup/models/contentModel.dart';
+import 'package:covergirlstore/models/cart_item.dart';
+import 'package:covergirlstore/models/contentModel.dart';
 import 'package:uuid/uuid.dart';
 
 class DetailPage extends StatefulWidget {

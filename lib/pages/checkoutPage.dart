@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:tokomakeup/models/cart_item.dart';
-import 'package:tokomakeup/models/notification_item.dart';
-import 'package:tokomakeup/pages/listPage.dart';
-import 'package:tokomakeup/models/notification_helper.dart';
+import 'package:covergirlstore/models/cart_item.dart';
+import 'package:covergirlstore/models/notification_item.dart';
+import 'package:covergirlstore/pages/listPage.dart';
+import 'package:covergirlstore/models/notification_helper.dart';
 
 
 import 'package:flutter_map/flutter_map.dart';
@@ -402,7 +402,7 @@ Widget buildTimeConversionWidget() {
                           urlTemplate:
                               "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                           subdomains: ['a', 'b', 'c'],
-                          userAgentPackageName: 'com.example.tokomakeup',
+                          userAgentPackageName: 'com.example.covergirlstore',
                         ),
                         MarkerLayer(
                           markers: [

@@ -5,9 +5,9 @@ import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sensors_plus/sensors_plus.dart';
-import 'package:tokomakeup/models/cart_item.dart';
-import 'package:tokomakeup/pages/checkoutPage.dart';
-import 'package:tokomakeup/pages/ListPage.dart';
+import 'package:covergirlstore/models/cart_item.dart';
+import 'package:covergirlstore/pages/checkoutPage.dart';
+import 'package:covergirlstore/pages/ListPage.dart';
 
 class CartPage extends StatefulWidget {
   const CartPage({super.key});

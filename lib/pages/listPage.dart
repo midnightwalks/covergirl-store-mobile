@@ -1,15 +1,15 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:tokomakeup/api/apiService.dart';
-import 'package:tokomakeup/models/contentModel.dart';
-import 'package:tokomakeup/pages/detailPage.dart';
-import 'package:tokomakeup/pages/cartPage.dart';
-import 'package:tokomakeup/pages/profilePage.dart';
-import 'package:tokomakeup/pages/messagePage.dart';
-import 'package:tokomakeup/pages/loginPage.dart';
-import 'package:tokomakeup/pages/notificationPage.dart';
-import 'package:tokomakeup/pages/compassPage.dart';
+import 'package:covergirlstore/api/apiService.dart';
+import 'package:covergirlstore/models/contentModel.dart';
+import 'package:covergirlstore/pages/detailPage.dart';
+import 'package:covergirlstore/pages/cartPage.dart';
+import 'package:covergirlstore/pages/profilePage.dart';
+import 'package:covergirlstore/pages/messagePage.dart';
+import 'package:covergirlstore/pages/loginPage.dart';
+import 'package:covergirlstore/pages/notificationPage.dart';
+import 'package:covergirlstore/pages/compassPage.dart';
 import 'package:hive/hive.dart';
 
 class ListPage extends StatefulWidget {

@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:tokomakeup/pages/loginPage.dart';
-import 'package:tokomakeup/pages/listPage.dart';
-import 'package:tokomakeup/models/cart_item.dart';
-import 'package:tokomakeup/models/notification_item.dart';
+import 'package:covergirlstore/pages/loginPage.dart';
+import 'package:covergirlstore/pages/listPage.dart';
+import 'package:covergirlstore/models/cart_item.dart';
+import 'package:covergirlstore/models/notification_item.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =

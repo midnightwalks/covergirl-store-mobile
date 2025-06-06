@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'package:tokomakeup/models/notification_item.dart';
+import 'package:covergirlstore/models/notification_item.dart';
 
 class NotificationPage extends StatelessWidget {
   const NotificationPage({super.key});

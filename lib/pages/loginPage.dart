@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:tokomakeup/pages/listPage.dart';
+import 'package:covergirlstore/pages/listPage.dart';
 import '../utils/encryption.dart';
 import 'registerPage.dart';
 

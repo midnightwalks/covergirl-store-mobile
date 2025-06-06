@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tokomakeup/models/store.dart';
+import 'package:covergirlstore/models/store.dart';
 
 
 class StoreListPage extends StatelessWidget {

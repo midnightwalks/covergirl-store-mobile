@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_compass/flutter_compass.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:tokomakeup/models/store.dart';
-import 'package:tokomakeup/pages/storeList.dart';
+import 'package:covergirlstore/models/store.dart';
+import 'package:covergirlstore/pages/storeList.dart';
 import 'dart:math' as math;
 
 class CompassPage extends StatefulWidget {
