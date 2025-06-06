@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:tokomakeup/models/contentModel.dart';
+import 'package:covergirlstore/models/contentModel.dart';
 
 const String baseUrl = "https://makeup-api.herokuapp.com/api/v1/products.json"; // Pastikan URL ini benar
 
