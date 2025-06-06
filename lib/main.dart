@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Makeup Store',
+      title: 'CoverGirl Store',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.pink),
       home: const SplashScreen(),
