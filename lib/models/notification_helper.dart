@@ -1,13 +1,13 @@
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
-final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
-    FlutterLocalNotificationsPlugin();
-
 Future<void> showNotification({
   required String title,
   required String body,
+  FlutterLocalNotificationsPlugin? plugin,
 }) async {
-  const AndroidNotificationDetails androidDetails = AndroidNotificationDetails(
+  final flutterLocalNotificationsPlugin = plugin ?? FlutterLocalNotificationsPlugin();
+
+  const androidDetails = AndroidNotificationDetails(
     'channel_id_01',
     'App Notifications',
     channelDescription: 'This channel is used for app notifications',
@@ -16,8 +16,7 @@ Future<void> showNotification({
     ticker: 'ticker',
   );
 
-  const NotificationDetails notifDetails =
-      NotificationDetails(android: androidDetails);
+  const notifDetails = NotificationDetails(android: androidDetails);
 
   await flutterLocalNotificationsPlugin.show(
     0,

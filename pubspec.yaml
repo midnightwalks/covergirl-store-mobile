@@ -26,6 +26,7 @@ dependencies:
   flutter_local_notifications: ^17.1.0
   permission_handler: ^11.0.1
   sensors_plus: ^3.0.3
+  mockito: ^5.4.5
 
   
 dev_dependencies:
